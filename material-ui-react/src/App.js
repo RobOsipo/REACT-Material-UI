@@ -8,6 +8,7 @@ import DeleteIcon from "@material-ui/icons/Delete"
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import TextField from '@material-ui/core/TextField'
+import CalendarTodaySharpIcon  from "@material-ui/icons/CalendarTodaySharp";
 
 function CheckboxExample() {
   const [checked, setChecked] = React.useState(true)
@@ -31,6 +32,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <CalendarTodaySharpIcon />
       <TextField 
         variant='filled'
         type='date'
